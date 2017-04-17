@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon server/server.js",
+    "react-start": "live-server --port=3000",
     "compile": "webpack -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,9 +19,10 @@
     "babel-preset-react": "^6.24.1",
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
-    "morgan": "^1.8.1",
     "mysql": "^2.13.0",
     "nodemon": "^1.11.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
     "sequelize": "^3.30.4",
     "webpack": "^2.4.1"
   }
